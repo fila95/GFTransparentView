@@ -19,6 +19,12 @@
 		1E39B03318F84EDA00E207BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E39B01B18F84EDA00E207BC /* UIKit.framework */; };
 		1E39B03B18F84EDA00E207BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E39B03918F84EDA00E207BC /* InfoPlist.strings */; };
 		1E39B03D18F84EDA00E207BC /* TransparentViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E39B03C18F84EDA00E207BC /* TransparentViewTests.m */; };
+		1E39B04918F84EF600E207BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E39B04718F84EF600E207BC /* ViewController.m */; };
+		1E39B04A18F84EF600E207BC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E39B04818F84EF600E207BC /* ViewController.xib */; };
+		1E39B05518F84F1400E207BC /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E39B05018F84F1400E207BC /* FXBlurView.m */; };
+		1E39B05A18F84FA700E207BC /* GFMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E39B05918F84FA700E207BC /* GFMaskView.m */; };
+		1E39B05D18F8523F00E207BC /* artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E39B05B18F8523F00E207BC /* artwork.png */; };
+		1E39B05E18F8523F00E207BC /* artwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E39B05C18F8523F00E207BC /* artwork@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,15 @@
 		1E39B03818F84EDA00E207BC /* TransparentViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransparentViewTests-Info.plist"; sourceTree = "<group>"; };
 		1E39B03A18F84EDA00E207BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E39B03C18F84EDA00E207BC /* TransparentViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentViewTests.m; sourceTree = "<group>"; };
+		1E39B04618F84EF600E207BC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E39B04718F84EF600E207BC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E39B04818F84EF600E207BC /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		1E39B04F18F84F1400E207BC /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		1E39B05018F84F1400E207BC /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		1E39B05818F84FA700E207BC /* GFMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFMaskView.h; sourceTree = "<group>"; };
+		1E39B05918F84FA700E207BC /* GFMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFMaskView.m; sourceTree = "<group>"; };
+		1E39B05B18F8523F00E207BC /* artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artwork.png; sourceTree = "<group>"; };
+		1E39B05C18F8523F00E207BC /* artwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "artwork@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +122,13 @@
 		1E39B01D18F84EDA00E207BC /* TransparentView */ = {
 			isa = PBXGroup;
 			children = (
+				1E39B05818F84FA700E207BC /* GFMaskView.h */,
+				1E39B05918F84FA700E207BC /* GFMaskView.m */,
 				1E39B02618F84EDA00E207BC /* AppDelegate.h */,
 				1E39B02718F84EDA00E207BC /* AppDelegate.m */,
+				1E39B04618F84EF600E207BC /* ViewController.h */,
+				1E39B04718F84EF600E207BC /* ViewController.m */,
+				1E39B04818F84EF600E207BC /* ViewController.xib */,
 				1E39B02918F84EDA00E207BC /* Images.xcassets */,
 				1E39B01E18F84EDA00E207BC /* Supporting Files */,
 			);
@@ -118,6 +138,10 @@
 		1E39B01E18F84EDA00E207BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1E39B04F18F84F1400E207BC /* FXBlurView.h */,
+				1E39B05018F84F1400E207BC /* FXBlurView.m */,
+				1E39B05B18F8523F00E207BC /* artwork.png */,
+				1E39B05C18F8523F00E207BC /* artwork@2x.png */,
 				1E39B01F18F84EDA00E207BC /* TransparentView-Info.plist */,
 				1E39B02018F84EDA00E207BC /* InfoPlist.strings */,
 				1E39B02318F84EDA00E207BC /* main.m */,
@@ -219,7 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E39B05D18F8523F00E207BC /* artwork.png in Resources */,
 				1E39B02218F84EDA00E207BC /* InfoPlist.strings in Resources */,
+				1E39B04A18F84EF600E207BC /* ViewController.xib in Resources */,
+				1E39B05E18F8523F00E207BC /* artwork@2x.png in Resources */,
 				1E39B02A18F84EDA00E207BC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E39B04918F84EF600E207BC /* ViewController.m in Sources */,
+				1E39B05518F84F1400E207BC /* FXBlurView.m in Sources */,
 				1E39B02818F84EDA00E207BC /* AppDelegate.m in Sources */,
 				1E39B02418F84EDA00E207BC /* main.m in Sources */,
+				1E39B05A18F84FA700E207BC /* GFMaskView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +467,7 @@
 				1E39B04218F84EDA00E207BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E39B04318F84EDA00E207BC /* Build configuration list for PBXNativeTarget "TransparentViewTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +476,7 @@
 				1E39B04518F84EDA00E207BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
