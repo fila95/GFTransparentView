@@ -2,7 +2,7 @@
 // GFMaskView.m
 // Version 1.0
 //
-// Copyright (c) 2014 Giovanni Filaferro (http://www.nanotek.it). All Rights Reserved.
+// Copyright (c) 2014 Giovanni Filaferro ( http://www.nanotek.it/ ). All Rights Reserved.
 //
 // Permission is hereby granted, free of charge, to any person
 // obtaining a copy of this software and associated documentation
